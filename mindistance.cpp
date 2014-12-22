@@ -63,7 +63,7 @@ void minDistance::Run()
         Selection();
         CrossOver();
         Mutate();
-        Swap();
+        Replace();
     }
     Fitness();
     Best();
@@ -211,7 +211,7 @@ void minDistance::Mutate()
     delete citizen;
 }
 
-void minDistance::Swap()
+void minDistance::Replace()
 {
     chro* temp;
     chro mid;
