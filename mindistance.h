@@ -26,7 +26,7 @@ public:
     void Selection();
     void CrossOver();
     void Mutate();
-    void Swap();
+    void Replace();
     void Elitism();
     void Best();
     bool Fitness_Sort(chro x, chro y);
